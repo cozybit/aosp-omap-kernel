@@ -7,3 +7,4 @@ fi
 #ARCH=arm SUBARCH=arm CROSS_COMPILE=arm-eabi- make tuna_defconfig
 ARCH=arm SUBARCH=arm CROSS_COMPILE=arm-eabi- make
 ARCH=arm SUBARCH=arm CROSS_COMPILE=arm-eabi- INSTALL_MOD_PATH=${MODULES_PATH} make modules_install
+cp arch/arm/boot/zImage /mnt/sdd/aosp/device/samsung/tuna/kernel
